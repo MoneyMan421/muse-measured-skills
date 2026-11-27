@@ -28,6 +28,11 @@ dated record says it is. That distinction is the product.
 
 *By Collin. A measurement record, not a warranty.*
 
+**The companion guide is free and open:** [GUIDE.md](GUIDE.md)
+— how the measured-skills system works, the first verification
+run as a worked example, and how to run a verification
+yourself.
+
 > Unofficial community project. Not affiliated with, endorsed
 > by, or operated by Meta. "Muse" is Meta's product name, used
 > here only to say what these skills are for.
