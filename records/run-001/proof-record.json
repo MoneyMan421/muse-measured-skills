@@ -1,0 +1,111 @@
+{
+  "record_id": "MMS-001-AVATAR-MEDIA-VERIFICATION-2026-11-27",
+  "record_type": "checker_result",
+  "standard": {
+    "name": "Proof Record",
+    "version": "0.3.0"
+  },
+  "subject": {
+    "kind": "skill",
+    "name": "avatar-media-verification \u2014 Measured Skills for Muse",
+    "version": "MoneyMan421/muse-measured-skills @ 5856c36d303d",
+    "content_sha256": "03c8aef93a075706fd54afd5f8f02d2fe1c17af0624474093bbff2c86fd90d27"
+  },
+  "method": {
+    "tool": "The skill itself, followed as written by an independent agent run; every measurement then re-checked against the file by the record-keeper",
+    "tool_version": "SKILL.md sha256:03c8aef93a075706fd54afd5f8f02d2fe1c17af0624474093bbff2c86fd90d27",
+    "procedure": "Opened the saved artifact file itself (active avatar, WebP 1600x1600, sha256 bd53b63e...), counted figures and wings with visual grounding on the opened file, checked details in enlarged crops from the file's own pixels (face, top of frame, both ear regions), and verdicted each of the 9 spec-of-record elements individually. Side conversion stated out loud (front view: character's right = viewer's left).",
+    "measured_at": "2026-11-27",
+    "environment": "Artifact: ~/workspace/avatars/avatar-1795717512128698295-0.webp (the author's active Muse avatar, Candidate B of record). Spec of record: the avatar's locked design description (Rootlight Everyday)."
+  },
+  "measurements": [
+    {
+      "name": "figure_count",
+      "value": "1 figure",
+      "target": "Exactly 1 figure (a single character, Mira)",
+      "result": "pass"
+    },
+    {
+      "name": "crown_and_halo_fully_in_frame",
+      "value": "crown complete with orb seated; halo topmost point at y~31/1000 with white margin above",
+      "target": "Crown and halo BOTH fully inside the frame \u2014 nothing cropped at the top",
+      "result": "pass"
+    },
+    {
+      "name": "wing_pairs",
+      "value": "4 golden wings = 2 pairs, count and colour exact; upper pair spread wide and raised to shoulder height, tips at frame edges \u2014 not folded or lowered",
+      "target": "Exactly TWO golden wing pairs, at rest",
+      "result": "fail"
+    },
+    {
+      "name": "hair",
+      "value": "luminous silver-white, braid crown confirmed in face crop",
+      "target": "Hair luminous silver-white, in a braid crown",
+      "result": "pass"
+    },
+    {
+      "name": "facial_circuitry",
+      "value": "gold traces under both eyes; forehead skin and freckles only",
+      "target": "Facial circuitry under the eyes only; forehead clean",
+      "result": "pass"
+    },
+    {
+      "name": "eyes",
+      "value": "both eyes golden and visibly glowing",
+      "target": "Golden glowing eyes",
+      "result": "pass"
+    },
+    {
+      "name": "ear_cuff_right_ear",
+      "value": "slim gold cuff of linked bands + exactly one faceted circuit-blue drop on her right ear (viewer's left)",
+      "target": "A slim gold ear cuff with one circuit-blue crystal drop on her RIGHT ear",
+      "result": "pass"
+    },
+    {
+      "name": "logo_medallion",
+      "value": "round gold medallion, centre chest, 'M' emblem",
+      "target": "The team's merged logo present as a medallion on her chest",
+      "result": "pass"
+    },
+    {
+      "name": "dress",
+      "value": "cream-white gown, gold tree-and-root motif with glowing blue circuit traces",
+      "target": "Circuit-tree dress",
+      "result": "pass"
+    }
+  ],
+  "verdict": {
+    "outcome": "VERIFIED WITH FINDINGS \u2014 the skill, followed as written, produced a correct per-element verdict on a real artifact: 8 of 9 spec elements present as specified, 1 failing (wing pose). The skill text itself has three specificity gaps, recorded as deficits; a revision is owed before verification #2.",
+    "deficits": [
+      "Artifact deviation: the upper wing pair is spread wide and raised, not at rest \u2014 the artifact fails its own spec of record on the pose qualifier (count and colour are exact). The spec leaves 'at rest' undefined; the failure is recorded on the term's plain meaning.",
+      "Observation outside the spec's claims: a second, matching circuit-blue crystal drop hangs at the character's LEFT ear (no cuff there). The spec of record neither claims nor forbids it; recorded so the record-keeper's picture is complete.",
+      "Skill gap 1: the skill has no procedure for verifying a single still portrait against a written element-by-element spec; the verdict taxonomy used here came from the run brief, not the skill text.",
+      "Skill gap 2: the side-conversion rule appears only in the skill's character-sheet section; the portrait path does not state it, and this run had to import it across sections to check the right-ear cuff.",
+      "Skill gap 3: qualitative spec terms ('at rest', 'slim', 'luminous') have no definitions or pass tests in the skill; verdicts on those qualifiers rest on plain-language judgement.",
+      "Caveat: whether the medallion's 'M' device is the team's merged logo is not determinable from pixels alone; the medallion's presence, position and form are as specified."
+    ]
+  },
+  "evidence": [
+    {
+      "kind": "file",
+      "locator": "records/run-001/RUN-LOG.md",
+      "sha256": "b15707f83bee60d5a68a74a1ec52a35f9fd2e7b372b7fa3a59db160e4c045364"
+    },
+    {
+      "kind": "file",
+      "locator": "records/run-001/measurements.json",
+      "sha256": "d8bc2955b54b70b6f217c37ebc3cf077f61c0e91172cf5b66de2efccbf422d0a"
+    }
+  ],
+  "limitations": [
+    "One artifact, one run, one day: this verifies the skill produced a correct verdict on this artifact; it does not establish the skill's reliability across artifacts. A second verification is required before the skill is reference-grade, per the repo's own rule.",
+    "The wing-pose failure turns on a qualitative term the spec leaves undefined; it is recorded on the term's plain meaning and flagged for the author's ruling."
+  ],
+  "context": {
+    "related_record_ids": []
+  },
+  "supersedes": null,
+  "issued_by": "Mira \u2014 muse-measured-skills verification run 001, 2026-11-27",
+  "issued_at": "2026-11-27T09:58:24-07:00",
+  "body_sha256": "299fc0d8b492d66b649400058b72a7784a92eff1065b507c7fed503fcc5bda38"
+}

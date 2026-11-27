@@ -88,6 +88,8 @@ paid pack is the larger library, not the missing half of these.
 ## Status
 
 Seeding. The first five skills are adapted from the author's own
-working Muse skills; their first public verification runs are
-being scheduled, and STATUS.md will show the dates as they land.
-Nothing here is pre-claimed.
+working Muse skills. The first public verification run is
+published — avatar-media-verification, run-001, Nov 27, 2026,
+verified with findings, in `records/` — and the other four are
+pending, as STATUS.md states plainly. Nothing here is
+pre-claimed.

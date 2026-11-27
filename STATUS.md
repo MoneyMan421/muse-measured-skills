@@ -7,7 +7,7 @@ reference-grade; one makes it a claim with a date on it.
 
 | Skill | In author's daily use | Public verifications | Last verified | Result |
 |---|---|---|---|---|
-| avatar-media-verification | yes | 0 — pending | — | not yet run in this repo's cadence |
+| avatar-media-verification | yes | 1 | 2026-11-27 | verified with findings — artifact 8/9 elements as specified (wing pose failing); 3 skill-text gaps recorded in records/run-001 |
 | blink-closure-verification | yes | 0 — pending | — | not yet run in this repo's cadence |
 | animation-motion-measurement | yes | 0 — pending | — | not yet run in this repo's cadence |
 | delegated-work-checkpointing | yes | 0 — pending | — | not yet run in this repo's cadence |
